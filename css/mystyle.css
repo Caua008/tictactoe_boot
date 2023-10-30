@@ -1,0 +1,26 @@
+/* Reset das configurações do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nosifer', serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* Definições da navbar */
+.bg-cor-legal {
+    background: blue;
+
+}
+
+#navbar-itens .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.tabuleiro {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns:10rem 10rem 10rem ; 
+}
